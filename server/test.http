@@ -1,0 +1,16 @@
+GET http://localhost:8080/login
+
+
+###
+
+POST http://localhost:8080/login
+content-type: text/html; charset=utf-8
+
+<request>
+    <login>Kirill</login>
+    <password>qwerty</password>
+</request>
+###
+
+GET http://localhost:8080/
+
